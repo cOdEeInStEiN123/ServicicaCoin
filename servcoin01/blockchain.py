@@ -1,3 +1,5 @@
+#! python3.10 
+
 # Imports 
 import json 
 import random 
