@@ -32,10 +32,6 @@ class Blockchain(object):
         # Reseting the list of pending transactions 
         self.pending_transactions = [] 
 
-        # Adding the block to the chain 
-        # self.chain.append(block) 
-
-        # print(f"Created block: {block['index']}") 
         return block 
 
     @staticmethod 
@@ -62,9 +58,6 @@ class Blockchain(object):
         
         self.chain.append(new_block) 
         print("Found a new block: ", new_block) 
-
-    # def valid_hash(self):
-    #     pass
 
 
     # def new_transaction(self, sender, recipient, amount): 
